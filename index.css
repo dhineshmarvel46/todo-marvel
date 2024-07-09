@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.todolist{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+justify-content: space-around;
+list-style: none;
+
+}
+.list{
+  width: 250px;
+  height: 50px;
+  margin: 15px 5px;
+  padding: 5px 5px;
+  background-color: rgb(231, 232, 233);
+  border-radius: 10px;
+  padding-top: 22px;
+  padding-left: 27px;
+  font-family: 'Times New Roman';
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+.btn{
+  margin-left: 15px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-image:linear-gradient(to right,#f5914e,#e85826);
+}
+.btn:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+.input{
+  margin: 5px 5px;
+  width:50px;
+  height: 20px;
+
+}
+.form{
+  display: flex;
+  flex-direction: row;
+ margin: 15px 15px;
+justify-content: center;
+align-items: center;
+}
+
+.todoname{
+  display: flex;
+  font: italic small-caps bold 16px/2 cursive;
+  justify-content: center;
+flex-direction: row;
+   letter-spacing: 2px;
+   text-decoration: underline;
+}
+
+.val{
+  width: 450px;
+  height: 30px;
+  border-radius: 15px;
+ box-shadow: 5px 5px 5px rgb(206, 205, 205);
+margin: 10px 10px;
+padding: 10px 10px;
+border: none;
+}
+.addbtn{
+  width: 200px;
+  height: 30px;
+  border-radius: 9px;
+  margin: 10px 10px;
+  background-color: #FA8BFF;
+  background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+
+border: none;
+  color: black;
+  font-weight: bolder;
+}
+.addbtn:hover{
+  cursor: pointer;
+ 
+  opacity: .8;
+}
+body{
+  background-color: rgb(31, 29, 29);
+}
+.searchinput{
+  border-radius: 7px;
+  padding: 3px 3px;
+
+  
+}
+.searchinput:hover{
+}
